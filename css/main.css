@@ -4,6 +4,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway|Sacramento");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -477,74 +478,148 @@ textarea {
   padding: 0.2em 0;
 }
 
-.icon-sprite, .icon-dino, .icon-fb, .icon-instagram, .icon-snapchat, .icon-twitter, .icon-whale, .icon-youtube {
-  background-image: url('../img/icon-se4f3d8d9db.png');
+.icon-sprite, .icon-camera, .icon-crane, .icon-dino, .icon-fb, .icon-home, .icon-instagram, .icon-music, .icon-snapchat, .icon-twitter, .icon-youtube {
+  background-image: url('../img/icon-sc869242f67.png');
   background-repeat: no-repeat;
 }
 
-.icon-dino {
-  background-position: 0 -100px;
+.icon-camera {
+  background-position: 0 -70px;
 }
-.icon-dino:hover, .icon-dino.dino-hover {
+.icon-camera:hover, .icon-camera.camera-hover {
   background-position: 0 0;
 }
 
+.icon-crane {
+  background-position: 0 -210px;
+}
+.icon-crane:hover, .icon-crane.crane-hover {
+  background-position: 0 -140px;
+}
+
+.icon-dino {
+  background-position: 0 -350px;
+}
+.icon-dino:hover, .icon-dino.dino-hover {
+  background-position: 0 -280px;
+}
+
 .icon-fb {
-  background-position: 0 -300px;
+  background-position: 0 -490px;
 }
 .icon-fb:hover, .icon-fb.fb-hover {
-  background-position: 0 -200px;
+  background-position: 0 -420px;
+}
+
+.icon-home {
+  background-position: 0 -630px;
+}
+.icon-home:hover, .icon-home.home-hover {
+  background-position: 0 -560px;
 }
 
 .icon-instagram {
-  background-position: 0 -500px;
+  background-position: 0 -770px;
 }
 .icon-instagram:hover, .icon-instagram.instagram-hover {
-  background-position: 0 -400px;
+  background-position: 0 -700px;
+}
+
+.icon-music {
+  background-position: 0 -910px;
+}
+.icon-music:hover, .icon-music.music-hover {
+  background-position: 0 -840px;
 }
 
 .icon-snapchat {
-  background-position: 0 -700px;
+  background-position: 0 -1050px;
 }
 .icon-snapchat:hover, .icon-snapchat.snapchat-hover {
-  background-position: 0 -600px;
+  background-position: 0 -980px;
 }
 
 .icon-twitter {
-  background-position: 0 -900px;
+  background-position: 0 -1190px;
 }
 .icon-twitter:hover, .icon-twitter.twitter-hover {
-  background-position: 0 -800px;
-}
-
-.icon-whale {
-  background-position: 0 -1100px;
-}
-.icon-whale:hover, .icon-whale.whale-hover {
-  background-position: 0 -1000px;
+  background-position: 0 -1120px;
 }
 
 .icon-youtube {
-  background-position: 0 -1300px;
+  background-position: 0 -1330px;
 }
 .icon-youtube:hover, .icon-youtube.youtube-hover {
-  background-position: 0 -1200px;
+  background-position: 0 -1260px;
 }
 
-li {
+h1 {
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 0px;
+}
+
+ul {
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  margin-top: 0px;
+}
+ul li {
   list-style: none;
   display: inline-block;
   padding: 10px;
 }
-li a {
+ul li a {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
-li a span {
+ul li a span {
   position: absolute;
   top: -9999em;
   left: -9999em;
+}
+
+.bodytext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+.bodytext p {
+  font-family: "Raleway", sans-serif;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+.bodytext p:last-of-type {
+  margin-bottom: 100px;
+}
+.bodytext a {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bodytext a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
+.social {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.social ul {
+  margin-bottom: 0px;
 }
 
 /* ==========================================================================

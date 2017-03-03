@@ -1,19 +1,74 @@
 @import 'icon/*.png';
 @include all-icon-sprites;
 
-li{
-	list-style: none;
-	display: inline-block;
-	padding: 10px;
-	a{
+h1{
+	font-family: $headerfont;
+	@include centerme;
+	font-size: 5em;
+	margin-bottom: 0px;
+}
+ul{
+	width: 100%;
+	@include centerme;
+	padding: 0px;
+	margin-top: 0px;
+	li{
+		list-style: none;
 		display: inline-block;
-		width: 100px;
-		height: 100px;
-		span{
-			position: absolute;
-			top: -9999em;
-			left: -9999em;
-			
-		}//span
-	}//a
-} //li
+		padding: 10px;
+		a{
+			display: inline-block;
+			width: 70px;
+			height: 70px;
+			span{
+				position: absolute;
+				top: -9999em;
+				left: -9999em;
+				
+			}//span
+		}//a
+	} //li
+} //ul
+
+.bodytext{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	@include centerme;
+	p{
+		font-family: $bodyfont;
+		width: 75%;
+		// display: inline-block;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: left;
+
+	}
+	p:last-of-type{
+		margin-bottom: 100px;
+	}
+	a{
+				display: inline-block;
+				width: 70px;
+				height: 70px;
+				@include centerme;
+				margin-left: auto;
+				margin-right: auto;
+				span{
+					position: absolute;
+					top: -9999em;
+					left: -9999em;
+					
+				}//span
+		}//a
+}
+
+.social{
+	background-color: rgba(255, 255, 255, .8);
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	ul{
+		margin-bottom: 0px;
+	}
+}
