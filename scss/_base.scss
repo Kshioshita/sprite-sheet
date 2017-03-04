@@ -6,6 +6,22 @@ h1{
 	@include centerme;
 	font-size: 5em;
 	margin-bottom: 0px;
+	padding-top: 10px;
+
+}
+
+body{
+	// background-color: blue;
+	background-image: url("../img/bokeh.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 800px;
+	background-color: rgba(255, 255, 255, .8);
 }
 ul{
 	width: 100%;
@@ -45,7 +61,7 @@ ul{
 
 	}
 	p:last-of-type{
-		margin-bottom: 100px;
+		padding-bottom: 110px;
 	}
 	a{
 				display: inline-block;

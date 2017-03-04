@@ -558,6 +558,20 @@ h1 {
   text-align: center;
   font-size: 5em;
   margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+body {
+  background-image: url("../img/bokeh.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 ul {
@@ -596,7 +610,7 @@ ul li a span {
   text-align: left;
 }
 .bodytext p:last-of-type {
-  margin-bottom: 100px;
+  padding-bottom: 110px;
 }
 .bodytext a {
   display: inline-block;
