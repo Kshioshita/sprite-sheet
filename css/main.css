@@ -559,6 +559,17 @@ h1 {
   font-size: 5em;
   margin-bottom: 0px;
   padding-top: 10px;
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
+header {
+  background-image: url("../img/headerimg.png");
+  background-repeat: no-repeat;
+  height: 150px;
+  background-position: 50% 55%;
+  background-color: white;
 }
 
 body {
@@ -568,7 +579,10 @@ body {
 }
 
 .wrapper {
-  margin: 0 auto;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
   width: 100%;
   max-width: 800px;
   background-color: rgba(255, 255, 255, 0.8);
