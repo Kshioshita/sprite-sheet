@@ -569,7 +569,7 @@ header {
   background-repeat: no-repeat;
   height: 150px;
   background-position: 50% 55%;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 body {
@@ -585,14 +585,14 @@ body {
   margin-bottom: 0px;
   width: 100%;
   max-width: 800px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
 }
 
 ul {
   width: 100%;
   text-align: center;
   padding: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 ul li {
   list-style: none;
