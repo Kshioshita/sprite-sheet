@@ -21,21 +21,15 @@ header{
 	background-image: url("../img/headerimg.png");
 	background-repeat: no-repeat;
 	height: 150px;
-	background-position: 50% 55%;
-	background-color: rgba(0, 0, 0, .04);
+	background-position: 50% 45%;
 }
 
 body{
-	// background-color: blue;
-	background-image: url("../img/bokeh.jpg");
-	// background-image: url("../img/headerimg.png");
-	background-repeat: no-repeat;
+	background: url('../img/bokeh.jpg') center center fixed no-repeat;
 	background-size: cover;
-	// height:100%;
 }
 
 .wrapper{
-	// margin: 0 auto;
 	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
@@ -107,5 +101,11 @@ ul{
 	bottom: 0;
 	ul{
 		margin-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	header{
+		background-image: url("../img/headerimgsmall.png");
 	}
 }
