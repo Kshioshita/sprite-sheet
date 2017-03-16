@@ -623,6 +623,7 @@ ul li a span {
 }
 .bodytext p:last-of-type {
   padding-bottom: 110px;
+  margin-bottom: 0px;
 }
 .bodytext a {
   display: inline-block;
